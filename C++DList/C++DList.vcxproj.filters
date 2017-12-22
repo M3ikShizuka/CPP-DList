@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{eb95da8f-43a5-4a29-b41a-ad57b03cfbc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DList">
+      <UniqueIdentifier>{18784f87-39bf-4dfc-991e-bdd3cab0c265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Head">
+      <UniqueIdentifier>{555f3a45-df89-4a7b-8682-e60d836dd79f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="head.hpp">
+      <Filter>Head</Filter>
+    </ClInclude>
+    <ClInclude Include="main.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="dlist.hpp">
+      <Filter>DList</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="dlist.cpp">
+      <Filter>DList</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
